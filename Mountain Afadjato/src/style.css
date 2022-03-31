@@ -32,8 +32,8 @@ nav ul li {
   margin: 10px 30px;
 }
 
-nav ul li:hover {
-  background-color: black;
+nav ul li a:hover {
+  color: lawngreen;
 }
 
 nav ul li a {
