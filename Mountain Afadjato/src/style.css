@@ -8,17 +8,17 @@
 .header {
   width: 100%;
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),
     url(images/image1.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
   animation-name: fade-in;
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 
 nav {
-  padding: 30px 3%;
+  padding: 30px 4%;
   display: flex;
   align-items: center;
 }
@@ -75,7 +75,7 @@ nav ul li a {
   bottom: 0;
   left: 9%;
   width: 2px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.25);
 }
 
 .row {
